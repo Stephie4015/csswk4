@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .intro-section {
+            background-color: #f0f0f0;
+        }
+
+        .skills-section {
+            background-color: #eaeaea;
+        }
+
+        .contact-section {
+            background-color: #ccc;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            border: 1px solid #333;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            header {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Stephany Wambui</h1>
+</header>
+
+<section class="intro-section">
+    <h2>Introduction</h2>
+    <p>Hi, I'm Stephany Wambui. I'm a web developer passionate about creating interactive and responsive websites.</p>
+</section>
+
+<section class="skills-section">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Bootstrap</li>
+    </ul>
+</section>
+
+<section class="contact-section">
+    <h2>Contact Information</h2>
+    <ul>
+        <li>Email: wambuistephany349@gmail.com.com</li>
+        <li>Contact: 0748722060</a></li>
+        <li>LinkedIn: <a href="www.linkedin.com/in/stephany-wambui-2bba74253">stephany-wambui-2bba74253</a></li>
+    </ul>
+</section>
+
+</body>
+</html>
